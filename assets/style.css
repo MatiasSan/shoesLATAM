@@ -1,0 +1,70 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Encode Sans Condensed", sans-serif;
+}
+
+.header {
+  padding: 5em;
+  height: 10em;
+  font-size: 2em;
+  background-image: url("../assets/imgs/banner.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 5em;
+  color: white;
+  text-shadow: 3px 3px 5px #333;
+}
+
+p {
+  font-size: 2em;
+}
+
+.productos {
+  width: 80%;
+  margin: auto;
+}
+
+.productos td {
+  width: 50%;
+  padding: 2em;
+}
+
+.productos img {
+  width: 500px;
+  height: 500px;
+  border: solid 1px #ddd;
+  box-shadow: 3px 3px;
+}
+
+/* Efecto de crecer */
+
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.footer {
+  height: 6em;
+  line-height: 6em;
+  text-align: center;
+  color: white;
+  background: rgb(228, 29, 40);
+  background: linear-gradient(
+    117deg,
+    rgba(228, 29, 40, 1) 7%,
+    rgba(201, 14, 54, 1) 24%,
+    rgba(255, 255, 255, 1) 92%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
